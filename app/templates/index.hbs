@@ -16,7 +16,7 @@ We hope you find exacly what you're looking for in a place to stay.
 
 <ul>
   {{#each model.cities as |city|}}
-    {{city-tile city=city update="update" destroyCity="destroyCity"}}
+    <li>{{#link-to 'city' city.id}}{{city.name}}{{/link-to}}</li>
   {{/each}}
 </ul>
 
