@@ -1,20 +1,27 @@
 { "rentals": [{
-    "owner": "Veruca Salt",
-    "city": "San Francisco",
-    "type": "Estate",
-    "bedrooms": 15,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
-  }, {
-    "owner": "Mike Teavee",
-    "city": "Seattle",
-    "type": "Condo",
-    "bedrooms": 1,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
-  }, {
-    "owner": "Violet Beauregarde",
-    "city": "Portland",
-    "type": "Apartment",
-    "bedrooms": 3,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }]
+    "bedrooms" : "16",
+    "city" : "Portland",
+    "image" : "https://d1fi354x6xaxra.cloudfront.net/b9261f6f7b97b9f39e08676088dbb623_large.jpg",
+    "owner" : "Luca",
+    "type" : "Closet"
+ }, {
+    "bedrooms" : "30",
+    "city" : "South Africa",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/e/ea/Lowlands_tents.jpg",
+    "owner" : "Nadia and friend",
+    "type" : "Tent"
+ }, {
+    "bedrooms" : "42",
+    "city" : "Philadelphia",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "owner" : "Jake from Epicodus",
+    "type" : "tiny cabin"
+ }],
+    "cities": [{
+    "name": "Portland",
+    "country": "USA"
+ }, {
+    "name": "Seattle",
+    "country": "USA"
+ }]
 }
