@@ -21,6 +21,16 @@ export default Ember.Route.extend({
       this.transitionTo('index');
     },
 
+    update(city, paramsCity) {
+      Object.keys(paramsCity).forEach(function(key) {
+        if(paramsCity[key]!==undefined) {
+          city.set(key, paramsCity[key]);
+        }
+      });
+      city.save();
+      this.transitionTo('index');
+    },
+
     destroyCity(city) {
       city.destroyRecord();
       this.transitionTo('index');
