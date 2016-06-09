@@ -17,7 +17,7 @@
     "owner" : "Jake from Epicodus",
     "type" : "tiny cabin"
  }],
-    "cities": [{
+  "cities": [{
     "name": "Portland",
     "country": "USA"
  }, {
